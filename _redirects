@@ -1,0 +1,3 @@
+# Netlify SPA fallback + www redirect
+https://www.gangnamroomalba.com/* https://gangnamroomalba.com/:splat 301!
+/*    /index.html   200

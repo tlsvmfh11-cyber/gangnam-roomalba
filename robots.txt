@@ -1,0 +1,49 @@
+# robots.txt for gangnamroomalba.com
+# 강남 룸알바 - 여성고소득알바 채용
+# Last updated: 2026-03-29
+
+# 모든 검색엔진 허용
+User-agent: *
+Allow: /
+Allow: /index.html
+Allow: /sitemap.xml
+
+# 불필요한 경로 차단
+Disallow: /cgi-bin/
+Disallow: /tmp/
+Disallow: /private/
+Disallow: /.git/
+Disallow: /.env
+
+# 사이트맵 위치
+Sitemap: https://gangnamroomalba.com/sitemap.xml
+
+# 구글봇 전용 (최대 크롤링 허용)
+User-agent: Googlebot
+Allow: /
+Crawl-delay: 0
+
+# 구글 이미지봇
+User-agent: Googlebot-Image
+Allow: /
+
+# 네이버봇
+User-agent: Yeti
+Allow: /
+Crawl-delay: 1
+
+# 다음봇
+User-agent: Daum
+Allow: /
+
+# 빙봇
+User-agent: Bingbot
+Allow: /
+Crawl-delay: 1
+
+# 야후봇
+User-agent: Slurp
+Allow: /
+
+# Host
+Host: https://gangnamroomalba.com
